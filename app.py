@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
-pipe=pickle.load(open('pipee.pkl','rb'))
+pipe=pickle.load(open('pipeee.pkl','rb'))
 data=pickle.load(open('data11.pkl','rb'))
 st.title("Laptop Predictor")
 st.markdown("@Author: Vansh Aggarw@l")

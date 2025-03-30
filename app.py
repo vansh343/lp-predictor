@@ -5,6 +5,8 @@ import pandas as pd
 pipe=pickle.load(open('pipee.pkl','rb'))
 data=pickle.load(open('data11.pkl','rb'))
 st.title("Laptop Predictor")
+st.markdown("@Author: Vansh Aggarw@l")
+st.markdown("---")
 brand=st.selectbox('Brand',data['Company'].unique())
 type1=st.selectbox('Type',data['TypeName'].unique())
 ram=st.selectbox('RAM(in GB)',[4,8,12,16,24,32])
